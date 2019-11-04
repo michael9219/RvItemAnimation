@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyFestl</string>
+    <string name="veranstaltung_erstellen">Veranstaltung erstellen</string>
+    <string name="sortieren">Sortieren</string>
+</resources>
