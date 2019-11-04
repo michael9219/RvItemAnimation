@@ -54,7 +54,7 @@ public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.NewsViewHolder
     @Override
     public int getItemCount() {
         if (mData != null) {
-            return Math.min(mData.size(), 14);
+            return Math.min(mData.size(), 13);
         } else {
             return 0;
         }
