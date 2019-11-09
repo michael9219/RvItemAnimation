@@ -142,8 +142,7 @@ public class MainActivity extends AppCompatActivity implements android.support.v
 
 
 
-        mData.add(new
-                NewsItem("Herbstwanderung", "Start beim Hauptplatz Gemeinde Ilz, von 13:30 bis 18:30", "2019.12.30", R.drawable.wandern, 47.086532, 15.925756, ""));
+
 
         mData.add(new
                 NewsItem("Theateraufführung ‘Der Bürger als Edelmann’", "Dorfhof Markt Hartmannsdorf, von 19:00 bis 22:00", "2019.11.08", R.drawable.veranstaltung, 47.054548, 15.838705, ""));
