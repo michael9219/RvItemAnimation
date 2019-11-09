@@ -140,10 +140,6 @@ public class MainActivity extends AppCompatActivity implements android.support.v
         //Vulkanland.at Anfang++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
-
-
-
-
         mData.add(new
                 NewsItem("Theateraufführung ‘Der Bürger als Edelmann’", "Dorfhof Markt Hartmannsdorf, von 19:00 bis 22:00", "2019.11.08", R.drawable.veranstaltung, 47.054548, 15.838705, ""));
         mData.add(new
