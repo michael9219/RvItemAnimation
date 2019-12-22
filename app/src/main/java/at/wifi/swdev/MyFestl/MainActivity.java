@@ -141,67 +141,8 @@ public class MainActivity extends AppCompatActivity implements android.support.v
 
 
 
-        mData.add(new
-                NewsItem("Nachmittagsbetreuung für Seniorinnen und Senioren", "ab 13:00, Gemeindesaal Sinabelkirchen, 8261 Sinabelkirchen, Sinabelkirchen 8", "2019.12.11", R.drawable.veranstaltung, 47.103314, 15.827789, ""));
-        mData.add(new
-                NewsItem("11. Vollmondwanderung", "Dorfplatz Jamm, Gemeinde St. Anna, ab 19 Uhr", "2019.12.12", R.drawable.wandern, 46.864483, 15.971726, ""));
-        mData.add(new
-                NewsItem("Weihnachtsmarkt ‘Allerhand’", "Die Töpferrunde lädt zum Weihnachtsmarkt \"Allerhand\" in den Töpferraum (Keller des Gemeindeamtes) ein.\n" +
-                "Ausgestellt werden nicht nur Produkte der Töpferrunde, sondern auch Erzeugnisse von Edelsbacher Betrieben und Künstlern.\n" +
-                "Lassen Sie sich überraschen. von 10:00 bis 16:00, Töpferraum Edelsbach", "2019.12.14", R.drawable.veranstaltung, 46.989699, 15.836649, ""));
-        mData.add(new
-                NewsItem("Weihnachtswunschkonzert Marktmusik", "Weihnachtswunschkonzert der Marktmusikkapelle Jagerberg, von 19:30 bis 23:30, Mehrzweckhalle Jagerberg", "2019.12.14", R.drawable.konzert, 46.854022, 15.737621, ""));
-        mData.add(new
-                NewsItem("MITEINANDER LEBEN IN VIELFALT", "„Englisch für alle“ mit Mag. Iryna Wachtler Begegnungsraum, Grazer Straße 2, Feldbach, 9 Uhr", "2019.12.14", R.drawable.veranstaltung, 46.953024, 15.886747, ""));
-        mData.add(new
-                NewsItem("Orgelkonzert", "Stadtpfarrkirche, Feldbach, 19.30 Uhr", "2019.12.14", R.drawable.veranstaltung, 46.954920, 15.888431, ""));
-        mData.add(new
-                NewsItem("KFG-Weihnachtsmesse", "ab 18:00, Pfarrkirche Kirchberg an der Raab", "2019.12.14", R.drawable.krampus, 46.987527, 15.764423, ""));
-        mData.add(new
-                NewsItem("Adventfeier Volksschule Weinburg am Saßbach", "Kultursaal Weinburg am Saßbach, ab 15 Uhr", "2019.12.14", R.drawable.veranstaltung, 46.753968, 15.719389, ""));
-        mData.add(new
-                NewsItem("Adventl`n", "Adventl`n mit vielen Ausstellern und Ausschank am Kirchpark, Adventl`n mit vielen Ausstellern und Ausschank am Kirchpark, ab 13 Uhr ", "2019.12.14", R.drawable.veranstaltung, 46.988526, 15.766725, ""));
-        mData.add(new
-                NewsItem("100% Advent – a cappella Konzert", "Stephanus, 8083 St. Stefan im Rosental, Alteggerstraße 18, ab 17 Uhr", "2019.12.15", R.drawable.konzert, 46.929172, 15.692814, ""));
 
-        mData.add(new
-                NewsItem("Adventkonzert Gnas", "Adventkonzert, Pfarrkirche Gnas, 18.00 Uhr \n" +
-                "Mitwirkende: Streicher-Ensemble, Familienmusik Tropper, Chor der Volksschule Gnas, Saitenmusik der Musikschule Gnas, Gesangverein Gnas, Männerchor, \n" +
-                "Lesung: OSR Dir. Gabriele Stangl  \n" +
-                "Gesmatleitung: Oleksandra Polytsia", "2019.12.15", R.drawable.konzert, 46.873277, 15.827183, ""));
-        mData.add(new
-                NewsItem("Stradener Adventmarkt", "von 09:00 bis 15:00, Vorplatz Greißlerei De Merin", "2019.12.15", R.drawable.sternschnuppe, 46.805888, 15.870534, ""));
-        mData.add(new
-                NewsItem("Jahresabschlussfeier Buschenschank Dunkl\n", "ab 17:00 Uhr, Buschenschank Dunkl 8345 Straden, Nägelsdorf 24a", "2019.12.15", R.drawable.veranstaltung, 46.802506, 15.837195, ""));
-        mData.add(new
-                NewsItem("Musik im Advent", "Eine Stunde besinnliche Musik mit den Schülern der Musikschule der Stadt Feldbach KOMM-Zentrum, Leitersdorf, 17 Uhr", "2019.12.15", R.drawable.sternschnuppe, 46.941556, 15.932604, ""));
-        mData.add(new
-                NewsItem("ARTE NOAH – ADVENTSPAZIERGANG", "für Tierliebhaber mit oder ohne Hund – jeder Vierbeiner erhält ein Weihnachtspackerl Rathaushof, Feldbach, 15 Uhr", "2019.12.15", R.drawable.veranstaltung, 46.954209, 15.888130, ""));
-        mData.add(new
-                NewsItem("TUS-WEIHNACHTSTURNEN", "Turnhalle, Feldbach, 15 Uhr", "2019.12.15", R.drawable.veranstaltung, 46.952790, 15.887840, ""));
-        mData.add(new
-                NewsItem("TAUFERNEUERUNGSFEIER", "der Erstkommunionkinder der Volksschule I Stadtpfarrkirche, Feldbach, 8.30 Uhr", "2019.12.15", R.drawable.veranstaltung, 46.954920, 15.888431, ""));
-        mData.add(new
-                NewsItem("Adventsingen", "ab 16:00, Pfarrkirche Straden", "2019.12.15", R.drawable.veranstaltung, 46.805888, 15.870534, ""));
-        mData.add(new
-                NewsItem("Blutspendetermin ", "Blutspenden des Roten Kreuzes\n" +
-                "im Rüsthaus der Freiwilligen Feuerwehr Wagendorf, Florianiweg 1, 8423 Wagendorf, von 15 bis 19 Uhr", "2019.12.16", R.drawable.veranstaltung, 46.758670, 15.610263, ""));
-        mData.add(new
-                NewsItem("TREFFPUNKT ADVENT", "Glühwein, Punsch & Kekse Café Beisl, Pfeiler´s Bürgerstüberl, Sissi´s Weinbar & Urbanistube, ab 17 Uhr", "2019.12.18", R.drawable.veranstaltung, 46.953739, 15.884880, ""));
-        mData.add(new
-                NewsItem("STAMMTISCH FÜR PFLEGENDE ANGEHÖRIGE", "Begegnungsraum, Grazer Straße 2 (Grazer Tor), Feldbach, 18.30 Uhr", "2019.12.18", R.drawable.information, 46.953024, 15.886747, ""));
-        mData.add(new
-                NewsItem("Ihr Kinderlein kommet – Weihnachten in der BIM\n", "ab 17:00, Bücherei, Gemeinde Straden", "2019.12.18", R.drawable.veranstaltung, 46.806241, 15.871275, ""));
-        mData.add(new
-                NewsItem("RORATE", "Frühmesse gestaltet von der Kath. Frauenbewegung Stadtpfarrkirche, Feldbach, 6.30 Uhr", "2019.12.19", R.drawable.veranstaltung, 46.954102, 15.886733, ""));
-        mData.add(new
-                NewsItem("GLÜHWEINAUSSCHANK", "Der FF Mühldorf ef-Einkaufszentrum Feldbach OST, Koller&Koller, ab 9 Uhr", "2019.12.21", R.drawable.veranstaltung, 46.949026, 15.914735, ""));
-        mData.add(new
-                NewsItem("Zipfelmützenparty", "Buschenschank Bierbauer, 8261 Sinabelkirchen, Frösau, ab 18 Uhr", "2019.12.21", R.drawable.veranstaltung, 47.089799, 15.815793, ""));
-        mData.add(new
-                NewsItem("KeyWest Charity Event\n", "Wir Spenden for the Kids, KeyWest in Straden, Marktl 51", "2019.12.21", R.drawable.veranstaltung, 46.810017, 15.878262, ""));
-        mData.add(new
-                NewsItem("ADVENTMARKT", "„Miteinander Advent leben“ mit Adventstand der Jungsteirerkapelle Feldbach, Kinderbastelstube von 14-18 Uhr Rathaushof, Feldbach, 10-19 Uhr", "2019.12.21", R.drawable.sternschnuppe, 46.954209, 15.888130, ""));
+
         mData.add(new
                 NewsItem("ADVENTMARKT", "„Miteinander Advent leben“ mit Adventstand der Jungsteirerkapelle Feldbach, Kinderbastelstube von 14-18 Uhr Rathaushof, Feldbach, 10-19 Uhr", "2019.12.22", R.drawable.sternschnuppe, 46.954209, 15.888130, ""));
         mData.add(new
@@ -273,115 +214,79 @@ public class MainActivity extends AppCompatActivity implements android.support.v
                 NewsItem("Bauernsilvester in Wörth", "Kulturhalle Wörth, ab 17 Uhr", "2019.12.30", R.drawable.sylvester, 46.904482, 15.765650, ""));
         mData.add(new
                 NewsItem("Silvester Warm-Up des USV Unterlamm\n", "Spar-Parkplatz in Unterlamm 31, ab 10 Uhr", "2019.12.31", R.drawable.veranstaltung, 46.978546, 16.058037, ""));
-
         mData.add(new
-                NewsItem("Kinderfaschingsfest", "ab 14:00, Dorfhof/großer Saal, Hauptstraße 25, Gemeinde Markt Hartmannsdorf", "2020.01.19", R.drawable.fasching, 47.054848, 15.838523, ""));
+                NewsItem("Neujahrsbrunch\n", "Restaurant Malerwinkl\n" +
+                "Gemeinde Riegersburg, ab 11:30 Uhr", "2020.01.01", R.drawable.kulinarik, 46.979941, 16.006353, ""));
+        mData.add(new
+                NewsItem("FANTURNIER", "des ESV Auersbach MZH oder Zwisch‘nzwoateichhitt‘n, Auersbach, 9 Uhr", "2020.01.04", R.drawable.veranstaltung, 46.993636, 15.870885, ""));
+        mData.add(new
+                NewsItem("JUGENDFUSSBALLTURNIER", "des SV Mühldorf MZH, Mühldorf, 9 Uhr", "2020.01.04", R.drawable.fussball, 46.955065, 15.878244, ""));
+        mData.add(new
+                NewsItem("Feuerwehrball der FF Riegersburg", "Vulkanlandhalle Riegersburg, Riegersburg 53, 8333 Riegersburg, ab 20:30 Uhr", "2020.01.04", R.drawable.feuerwehrfest, 46.996633, 15.941589, ""));
+        mData.add(new
+                NewsItem("Jugendball in der Kulturhalle", "Mehrzweckhalle Wörth, Gemeinde Gnas, ab 20 Uhr", "2020.01.04", R.drawable.veranstaltung, 46.919400, 15.744722, ""));
+        mData.add(new
+                NewsItem("Tag der offenen Tür im Haus der Jugend\n", "Haus der Jugend\n" +
+                "\n" +
+                "Gemeinde Unterlamm, ab 14 Uhr", "2020.01.04", R.drawable.veranstaltung, 46.977802, 16.058959, ""));
+        mData.add(new
+                NewsItem("‘Schlagernacht’ Ball des Sportverein Breitenfeld", "Gasthaus Prehm Krennach bei Riegersburg, Krennach 13, 8333 Riegersburg, ab 20 Uhr", "2020.01.05", R.drawable.veranstaltung, 47.026205, 15.889276, ""));
+        mData.add(new
+                NewsItem("STERNSINGER DANKGOTTESDIENST", "Stadtpfarrkirche, Feldbach, 10 Uhr", "2020.01.06", R.drawable.veranstaltung, 46.954930, 15.888164, ""));
+        mData.add(new
+                NewsItem("HEILIGE MESSE", "Stadtpfarrkirche, Feldbach, 8.30 Uhr", "2020.01.06", R.drawable.veranstaltung, 46.954930, 15.888164, ""));
+        mData.add(new
+                NewsItem("Vortrag ‘Rituale machen Kinder stark’ (Eltern-Kind-Bildung)\n", "Gemeindeamt Unterlamm, 18:30 Uhr", "2020.01.09", R.drawable.veranstaltung, 46.977802, 16.058959, ""));
+        mData.add(new
+                NewsItem("Midnight-Cup", "Sporthalle Straden, ab 18 Uhr", "2020.01.10", R.drawable.fussball, 46.808429, 15.868833, ""));
+        mData.add(new
+                NewsItem("50. MATURABALL DER HAK FELDBACH", "„Fifty Shades of HAK“ arena, Feldbach, 19.30 Uhr", "2020.01.11", R.drawable.ball, 46.955034, 15.878048, ""));
+        mData.add(new
+                NewsItem("Pfarrball Gnas", "Pfarrheim Gnas, ab 14 Uhr", "2020.01.11", R.drawable.veranstaltung, 46.873230, 15.827855, ""));
+        mData.add(new
+                NewsItem("Seniorenball", "Gasthaus Pock, Gemeinde Straden ab 13 Uhr", "2020.01.11", R.drawable.veranstaltung, 46.885930, 15.545987, ""));
+        mData.add(new
+                NewsItem("Preisschnapsen UDFC Hof", "Bulldogwirt, Hof bei Straden 2, 8345 Straden\n", "2020.01.11", R.drawable.veranstaltung, 46.800049, 15.885960, ""));
+        mData.add(new
+                NewsItem("Jägerball 2.0\n", "Kultursaal St. Veit am Vogau, Schulstraße 11, ab 19 Uhr", "2020.01.11", R.drawable.veranstaltung, 46.748118, 15.626215, ""));
+        mData.add(new
+                NewsItem("Hl. Messe bei der Lourdes-Mariengrotte\n", "Pfarrkirche zum Hl. Heinrich in Unterlamm, ab 19:00\n", "2020.01.11", R.drawable.veranstaltung, 46.978248, 16.060323, ""));
+        mData.add(new
+                NewsItem("Film & Foto Show ‘Faszination Alpen’ – Zu Fuß 8.500 km auf den schönsten Wanderwegen\n", "Film & Foto Show \"Faszination Alpen\" – Zu Fuß 8.500 km auf den schönsten Wanderwegen\n" +
+                "von Verena & Andreas Jeitler, Pfarrheim Gnas, ab 18 Uhr", "2020.01.12", R.drawable.veranstaltung, 46.873230, 15.827855, ""));
+        mData.add(new
+                NewsItem("MULTIVISIONSSHOW\n", "Multivisionsshow von Josef Stallmajer \"Von Madeira bis ans Ende der Welt\", Beginn um 19:30 Uhr in der Ottersbachhalle.\n", "2020.01.16", R.drawable.veranstaltung, 46.799033, 15.755575, ""));
+        mData.add(new
+                NewsItem("Vielfalt im Obstgarten, Stefan Tschiggerl\n", "ielfalt im Obstgarten: Pflege von Jung- und Altbäumen, alte Obstsorten erhalten, ökologische und ge-sundheitliche Aspekte im extensiven Obstbau\n" +
+                "mit Stefan Tschiggerl, Gemeindeamt Kapfenstein, 8353 Kapfenstein 123, ab 19 Uhr", "2020.01.16", R.drawable.veranstaltung, 46.885635, 15.974116, ""));
+        mData.add(new
+                NewsItem("NEUJAHRSEMPFANG", "der Stadtgemeinde Feldbach Zentrum, Feldbach, Einlass 18.30 Uhr, Beginn 19 Uhr\n", "2020.01.16", R.drawable.veranstaltung, 46.951455, 15.888549, ""));
+        mData.add(new
+                NewsItem("LITERATURTREFF", "Thema: Kriminell gute Geschichten „Die Männer sind alle Verbrecher ...“ Vorwiegend neue und unbekannte Krimis aus aller Welt über menschliche Schattenseiten und den ewigen Kampf der Guten gegen das Böse. Stadtbibliothek, Feldbach, 18 Uhr", "2020.01.17", R.drawable.veranstaltung, 46.955192, 15.885444, ""));
+        mData.add(new
+                NewsItem("BALL DER STADTMUSIK FELDBACH", "GH Kleinmeier, Unterweißenbach, 20 Uhr", "2020.01.18", R.drawable.ball, 46.947381, 15.885674, ""));
+        mData.add(new
+                NewsItem("Blumenball der Marktgemeinde Straden\n", "Musik: Junge Paldauer\n" +
+                "Disco im Kulturhauskeller, Kulturhaus Straden ab 19:30 Uhr", "2020.01.18", R.drawable.ball, 46.806198, 15.871406, ""));
+        mData.add(new
+                NewsItem("Motorsägen-Wettbewerb", "Vereinsgelände des ESV Perlsdorf-Grabenhof, ab 12 Uhr", "2020.01.18", R.drawable.veranstaltung, 46.917889, 15.818587, ""));
+        mData.add(new
+                NewsItem("Hallenfußballturnier Bombers", "Sport- und Kulturhalle Sinabelkirchen, 8261 Sinabelkirchen, Sinabelkirchen 200, ab 8 Uhr", "2020.01.18", R.drawable.veranstaltung, 47.100919, 15.828256, ""));
+        mData.add(new
+                NewsItem("Kinderfaschingsfest", "Dorfhof/großer Saal, Hauptstraße 25, Gemeinde Markt Hartmannsdorf, ab 14 Uhr", "2020.01.19", R.drawable.fasching, 47.054848, 15.838523, ""));
+        mData.add(new
+                NewsItem("DORFRUNDE\n", "Dorfrunde mit Pfarrer um 19:00 Uhr im Mehrzwecksaal in Dietersdorf am Gnasbach", "2020.01.22", R.drawable.veranstaltung, 46.805719, 15.812124, ""));
         mData.add(new
                 NewsItem("Rotkreuz-Ball", "ab 19:00, Dorfhof/großer Saal, Hauptstraße 25, Gemeinde Markt Hartmannsdorf", "2020.01.25", R.drawable.ball, 47.054848, 15.838523, ""));
         mData.add(new
                 NewsItem("Oldtimer-Treffen", "ab 09:00, Dorfhof-Gelände bzw. alten Sportplatz, Peintstraße, Gemeinde Markt Hartmannsdorf", "2020.06.07", R.drawable.oldtimertreffen, 47.054222, 15.830208, ""));
-
-        mData.add(new
-                NewsItem("JAHRESAUSKLANG UND SILVESTER IN FELDBACH", "Feldbach, ganztägig, ab 8:00 Uhr", "2019.12.30", R.drawable.sylvester, 46.9526, 15.888799999, ""));
-        mData.add(new
-                NewsItem("AUSSTELLUNG SCHLICHTBAROCK", "1 UHr, Kugelmühle Feldbach", "2020.11.01", R.drawable.ausstellung, 46.9526, 15.888799999, ""));
 
 
 
         //Vulkanland.at Ende++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
-       // https://www.feldbach.gv.at/veranstaltungen/       Anfang++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-
-
-        mData.add(new
-                NewsItem("TANZKURS FÜR ANFÄNGER", "Kummer-Meine Tanzschule www.meine-tanzschule.at Tel.: 0676/3433272 GH Schwarz, Paurach, 19-20.30 Uhr ", "2019.12.30", R.drawable.veranstaltung, 46.967700, 15.841978, ""));
-        mData.add(new
-                NewsItem("JUBILÄUMSKONZERT", "mit den Chören der Stadtpfarre Feldbach und Orchester anlässlich des Jubiläums „20 Jahre Kirchenchor“ unter der Leitung von Mag. Sabine Monschein Stadtpfarrkirche, Feldbach, 19.30 Uhr ", "2019.11.09", R.drawable.konzert, 46.954920, 15.888431, ""));
-        mData.add(new
-                NewsItem("FELDBACHER ADVENT", "Rathaushof, Feldbach, 10-19 Uhr", "2019.11.29", R.drawable.sternschnuppe, 46.954920, 15.888431, ""));
-
-
-        // https://www.feldbach.gv.at/veranstaltungen/       Ende++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-
-        //Gnas++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-
-
-
-        mData.add(new
-                NewsItem("Kathreinmarkt in Gnas ", "ab 8:00 Uhr, Zentrum Gnas", "2019.11.29", R.drawable.veranstaltung, 46.874245, 15.826349, ""));
-        mData.add(new
-                NewsItem("Jugendball in der Kulturhalle Baumgarten", "Kultursaal Wörth bei Gnas, ab 19 Uhr", "2020.04.01", R.drawable.ball, 46.905183, 15.766026, ""));
-
-
-//Gnas Ende++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-
-
-
-
-        //Fehring  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-        mData.add(new
-                NewsItem("Krampusrummel der FF Fehring", "Hauptplatz in Fehring, Beginn: 17:00 Uhr", "2019.12.05", R.drawable.krampus, 46.935007, 16.009851, ""));
-
-        //Fehring Ende ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-
-
-        mData.add(new
-                NewsItem("Schiball", " Koralmhalle - Deutschlandsberg, Steiermark, 20:00 h", "2019.12.25", R.drawable.ball, 46.817472, 15.222044, ""));
-        mData.add(new
-                NewsItem("Schilcherland GALA", " ,20:00 h", "2020.02.01", R.drawable.veranstaltung, 46.817472, 15.222044, ""));
-        mData.add(new
-                NewsItem("Kabarettabend mit Lydia Prenner-Kasper", "Koralmhalle - Deutschlandsberg, Steiermark  ,19:30 h", "2020.03.12", R.drawable.kabarett, 46.817472, 15.222044, ""));
-
-        //Deutschlandsberg Ende++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-
-
-        //http://www.fehring.at/veranstaltungskalender  Anfang+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-
-
-
-        mData.add(new
-                NewsItem("Theater in Hatzendorf: \"G'spenstermacher\"", "Gasthof Kraxner, Hatzendorf 23 ab 17 Uhr", "2019.11.27", R.drawable.theater, 46.975856, 15.999532, ""));
-        mData.add(new
-                NewsItem("Theater in Hatzendorf: \"G'spenstermacher\"", "Gasthof Kraxner, Hatzendorf 23 ab 17 Uhr", "2019.11.29", R.drawable.theater, 46.975856, 15.999532, ""));
-        mData.add(new
-                NewsItem("Theater in Hatzendorf: \"G'spenstermacher\"", "Gasthof Kraxner, Hatzendorf 23 ab 17 Uhr", "2019.11.30", R.drawable.theater, 46.975856, 15.999532, ""));
-        mData.add(new
-                NewsItem("Krippenausstellung Franz Hammer", "Stadtparrkirche Fehring \n" +
-                "ganztägig ", "2019.12.01", R.drawable.ausstellung, 46.936764, 16.011044, ""));
-        mData.add(new
-                NewsItem("Krampusrummel der FF Fehring", "Hauptplatz in Fehring \n" +
-                "Beginn: 17:00 Uhr", "2019.12.05", R.drawable.krampus, 46.935482, 16.010113, ""));
-        mData.add(new
-                NewsItem("Wunschkonzert Stadtkapelle Fehring", "Sporthalle Fehring, Hans-Kampel-Platz 5 \n" +
-                "Beginn 19:30 Uhr\n" +
-                "Veranstalter: Stadtkapelle Fehring, Obmann Klaus Sundl ", "2019.12.07", R.drawable.konzert, 46.938775, 16.009789, ""));
-        mData.add(new
-                NewsItem("Weihnachtsmarkt", "Fehringer Hauptplatz", "2019.12.14", R.drawable.sternschnuppe, 46.935482, 16.010113, ""));
-
-        //bis dezember
-        //http://www.fehring.at/veranstaltungskalender  Ende+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-
-
-
-        //gemeinde-rosental.at.server175-han.server-routing.com/pm_cms/index.php?option=com_content&view=article&id=204&Itemid=100021  Ende+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-
-        mData.add(new
-                NewsItem("Großer Nikolausmarkt", "13:00 Diglas Firmengelände, Schichenauerstraße ", "2019.12.01", R.drawable.veranstaltung, 46.902552, 15.718845, ""));
-        mData.add(new
-                NewsItem("Rosentaler Christkindlmarkt", "Marktplatz St. Stefan im Rosental", "2019.12.07", R.drawable.sternschnuppe, 46.905436, 15.711464, ""));
-
-        //gemeinde-rosental.at.server175-han.server-routing.com/pm_cms/index.php?option=com_content&view=article&id=204&Itemid=100021  Ende+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
 
