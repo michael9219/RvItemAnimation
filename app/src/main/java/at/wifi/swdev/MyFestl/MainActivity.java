@@ -295,13 +295,17 @@ public class MainActivity extends AppCompatActivity implements android.support.v
         mData.add(new
                 NewsItem("Korbflechter- und Besenbinderball", "Haus der Vulkane 8345 Straden, Stainz bei Straden 85, ab 19 Uhr", "2020.02.24", R.drawable.veranstaltung, 46.821946, 15.894467, ""));
         mData.add(new
-                NewsItem("titel", "beschreibung", "2020.02.22", R.drawable.veranstaltung, 46.805719, 15.812124, ""));
+                NewsItem("FASCHINGSDIENSTAG – RIESENWIENER", "Wirtshaus zum Bergler Schlössl, Gemeinde St. Peter am Ottersbach", "2020.02.25", R.drawable.fasching, 46.815375, 15.773041, ""));
         mData.add(new
-                NewsItem("titel", "beschreibung", "2020.02.22", R.drawable.veranstaltung, 46.805719, 15.812124, ""));
+                NewsItem("Faschingspreisschnapsen", "Rüsthaus Untergroßau, 8261 Sinabelkirchen, Untergroßau 145, ab 15 Uhr", "2020.02.25", R.drawable.veranstaltung, 47.101526, 15.810738, ""));
         mData.add(new
-                NewsItem("titel", "beschreibung", "2020.02.22", R.drawable.veranstaltung, 46.805719, 15.812124, ""));
+                NewsItem("Stradener Kinderfasching", "Kulturhaus Straden, ab 13 Uhr", "2020.02.25", R.drawable.fasching, 46.806198, 15.871406, ""));
         mData.add(new
-                NewsItem("titel", "beschreibung", "2020.02.22", R.drawable.veranstaltung, 46.805719, 15.812124, ""));
+                NewsItem("Aschenkreuzauflegung und Heilige Messe", "Pfarrkirche Straden, 18:30 Uhr", "2020.02.26", R.drawable.veranstaltung, 46.805888, 15.870534, ""));
+        mData.add(new
+                NewsItem("Naturgarten: Für lebendige Vielfalt ist im kleinsten Garten Platz, Irmgard Scheidl\n", "Gemeindeamt Halbenrain, 8492 Halbenrain 220, ab 19 Uhr, Praktische Tipps über den Naturgarten, über die Möglichkeiten der Gartengestaltung, von der eigenen Saatgutvermehrung über den Anbau im Hausgarten oder die Förderung von Nützlingen bis hin zur Verwendung in der Küche!", "2020.02.27", R.drawable.vortrag, 46.722650, 15.947967, ""));
+        mData.add(new
+                NewsItem("‘Körper und Gehirn brauchen Bewegung’ – Vortrag Eltern-Kind-Bildung\n", "Haus der Vulkane 8345 Straden, Stainz bei Straden 85, ab 19 Uhr", "2020.02.27", R.drawable.vortrag, 46.821946, 15.894467, ""));
 
 
 
