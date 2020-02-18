@@ -64,7 +64,7 @@
         android:drawablePadding="8dp"
         android:onClick="btnmail"
         android:text="@string/veranstaltung_erstellen"
-        android:textSize="8sp"
+        android:textSize="10sp"
         app:layout_constraintBottom_toTopOf="@+id/search_input"
         app:layout_constraintEnd_toEndOf="@+id/search_input"
         app:layout_constraintHorizontal_bias="1.0"

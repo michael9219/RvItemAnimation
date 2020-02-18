@@ -7,6 +7,14 @@ import android.os.Bundle;
 import android.view.Window;
 import android.view.WindowManager;
 
+import com.google.android.play.core.appupdate.AppUpdateInfo;
+import com.google.android.play.core.appupdate.AppUpdateManager;
+import com.google.android.play.core.appupdate.AppUpdateManagerFactory;
+import com.google.android.play.core.install.model.AppUpdateType;
+import com.google.android.play.core.install.model.UpdateAvailability;
+import com.google.android.play.core.tasks.OnSuccessListener;
+import com.google.android.play.core.tasks.Task;
+
 public class StartSeite extends AppCompatActivity {
 
     private static int SPLASH_TIME_OUT = 2000;
@@ -14,6 +22,7 @@ public class StartSeite extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
 
         //fullscreen
         requestWindowFeature(Window.FEATURE_NO_TITLE);
@@ -35,3 +44,5 @@ public class StartSeite extends AppCompatActivity {
         }, SPLASH_TIME_OUT);
     }
 }
+
+

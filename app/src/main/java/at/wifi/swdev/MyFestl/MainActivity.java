@@ -1,7 +1,9 @@
 package at.wifi.swdev.MyFestl;
 
 import android.Manifest;
+import android.app.Activity;
 import android.content.Intent;
+import android.content.IntentSender;
 import android.content.pm.PackageManager;
 import android.location.Location;
 import android.net.Uri;
@@ -19,6 +21,7 @@ import android.text.TextWatcher;
 import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.PopupMenu;
 import android.widget.Toast;
@@ -41,10 +44,23 @@ import com.google.android.gms.location.LocationCallback;
 import com.google.android.gms.location.LocationRequest;
 import com.google.android.gms.location.LocationResult;
 import com.google.android.gms.location.LocationServices;
+import com.google.android.play.core.appupdate.AppUpdateInfo;
+import com.google.android.play.core.appupdate.AppUpdateManager;
+import com.google.android.play.core.appupdate.AppUpdateManagerFactory;
+import com.google.android.play.core.install.InstallState;
+import com.google.android.play.core.install.InstallStateUpdatedListener;
+import com.google.android.play.core.install.model.AppUpdateType;
+import com.google.android.play.core.install.model.InstallStatus;
+import com.google.android.play.core.install.model.UpdateAvailability;
+import com.google.android.play.core.tasks.Task;
+
+import static com.google.android.play.core.install.model.AppUpdateType.IMMEDIATE;
 
 
 public class MainActivity extends AppCompatActivity implements android.support.v7.widget.PopupMenu.OnMenuItemClickListener, PopupMenu.OnMenuItemClickListener {
 
+
+    private static final int MY_REQUEST_CODE = 1;
     AdView mAdview;
 
     public static final int REQUEST_CODE = 1;
@@ -59,25 +75,68 @@ public class MainActivity extends AppCompatActivity implements android.support.v
     List<NewsItem> mData;
     EditText searchInput;
 
-    @RequiresApi(api = Build.VERSION_CODES.M)
+
+
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-
-
-
-
-
-
-
-
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        MobileAds.initialize(this, "ca-app-pub-7283581220811839~8808815852"); //App ID  ca-app-pub-7283581220811839~8808815852
 
-        mAdview = (AdView) findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder().build();
-        mAdview.loadAd(adRequest);
+
+
+
+
+
+// Creates instance of the manager.
+        AppUpdateManager appUpdateManager = AppUpdateManagerFactory.create(this);
+
+// Returns an intent object that you use to check for an update.
+        Task<AppUpdateInfo> appUpdateInfoTask = appUpdateManager.getAppUpdateInfo();
+
+// Checks that the platform will allow the specified type of update.
+        appUpdateInfoTask.addOnSuccessListener(appUpdateInfo -> {
+            if (appUpdateInfo.updateAvailability() == UpdateAvailability.UPDATE_AVAILABLE
+                    // For a flexible update, use AppUpdateType.FLEXIBLE
+                    && appUpdateInfo.isUpdateTypeAllowed(AppUpdateType.IMMEDIATE)) {
+                try {
+                    appUpdateManager.startUpdateFlowForResult(
+                            // Pass the intent that is returned by 'getAppUpdateInfo()'.
+                            appUpdateInfo,
+                            // Or 'AppUpdateType.FLEXIBLE' for flexible updates.
+                            AppUpdateType.IMMEDIATE,
+                            // The current activity making the update request.
+                            this,
+                            // Include a request code to later monitor this update request.
+                            MY_REQUEST_CODE);
+                } catch (IntentSender.SendIntentException e) {
+                    e.printStackTrace();
+                }
+            }
+
+
+        }
+
+        );
+
+
+
+
+
+
+
+
+
+      //  MobileAds.initialize(this, "ca-app-pub-7283581220811839~8808815852"); //App ID  ca-app-pub-7283581220811839~8808815852
+
+
+
+     //   mAdview = (AdView) findViewById(R.id.adView);
+     //   AdRequest adRequest = new AdRequest.Builder().build();
+     //   mAdview.loadAd(adRequest);
 
         //gps++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -349,7 +408,11 @@ public class MainActivity extends AppCompatActivity implements android.support.v
 
 
                                                    });
+
+
+
     }
+
 
 
     //GPS+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -357,6 +420,10 @@ public class MainActivity extends AppCompatActivity implements android.support.v
     @Override // resume und pause, bei pause wegnehmen
     protected void onResume() {
         super.onResume();
+
+
+
+
 
         // Location Updates abbonieren
         if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
@@ -370,11 +437,31 @@ public class MainActivity extends AppCompatActivity implements android.support.v
             return;
         }
         client.requestLocationUpdates(locationRequest, locationCallback, null);
+
+
+
+
+
+
+
+
+
+
     }
+
+
+
+
+
 
     @Override // resume und pause, bei pause wegnehmen
     protected void onPause() {
         super.onPause();
+
+
+
+
+
 
         //Location Updates deaktivieren
         client.removeLocationUpdates(locationCallback);
@@ -503,4 +590,30 @@ public class MainActivity extends AppCompatActivity implements android.support.v
         }
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
+
